@@ -1,14 +1,14 @@
 {
   "name": "generator-drupal-tpl",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
+  "version": "0.0.1",
+  "description": "Yeoman generator for Drupal tpl creation.",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "Josh-Miller/generator-drupal-tpl",
   "author": {
     "name": "Josh Miller",
     "email": "",
-    "url": "https://github.com/Josh-Miller"
+    "url": "http://josh-miller.me"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -20,7 +20,9 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "drupal",
+    "template"
   ],
   "dependencies": {
     "chalk": "^1.0.0",
