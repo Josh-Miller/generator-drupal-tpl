@@ -1,4 +1,4 @@
-# generator-drupal-tpl [![Build Status](https://secure.travis-ci.org/Josh-Miller/generator-drupal-tpl.png?branch=master)](https://travis-ci.org/Josh-Miller/generator-drupal-tpl)
+# generator-drupal-tpl
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -10,7 +10,7 @@ The .tpl files are based on [Center](https://www.drupal.org/project/center) and 
 
 ## Getting Started
 
-### What is Yeoman?
+### Install Yeoman
 
 ```bash
 npm install -g yo
