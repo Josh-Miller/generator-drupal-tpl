@@ -3,7 +3,7 @@
 var yeoman = require('yeoman-generator'),
     _ = require('lodash');
 
-var drupalNode = yeoman.generators.NamedBase.extend({
+var drupalTerm = yeoman.generators.NamedBase.extend({
   prompting: function() {
     var done = this.async();
 
@@ -46,9 +46,9 @@ var drupalNode = yeoman.generators.NamedBase.extend({
           viewMode: this.viewMode,
         };
 
-    this.template('node.tpl.php', 'node' + viewMode + tpl + '.tpl.php', context);
+    this.template('taxonomy-term.tpl.php', 'taxonomy-term' + viewMode + tpl + '.tpl.php', context);
 
   },
 });
 
-module.exports = drupalNode;
+module.exports = drupalTerm;

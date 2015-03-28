@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Default theme implementation to display a node.
+ * <%= tpl %> <%= viewMode %> theme implementation to display a node.
  */
 
 ?>
@@ -27,7 +27,7 @@
 
     <% _.forEach(fields, function(field) { %>
     <?php if (isset($content['<%= field %>'])) : ?>
-      <div class="field--<%= field %>">
+      <div class="field--item field--<%= field %>">
         <?php print render($content['<%= field %>']); ?>
       </div>
     <?php endif; ?>
